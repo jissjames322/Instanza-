@@ -17,6 +17,7 @@
 ## 🚀 Features
 
 ### 👤 Authentication & Users
+
 - 🔐 **Secure JWT-based login & signup**
 - 🗝️ **Password encryption** with bcrypt
 - 📸 **Profile picture uploads** with Cloudinary
@@ -25,25 +26,29 @@
 - ✅ **User verification** system
 
 ### 🏠 Posts & Feeds
-- ➕ **Create, like, and comment** on posts  
+
+- ➕ **Create, like, and comment** on posts
 - ☁️ **Image uploads** using Cloudinary
 - 👀 **Personalized feed** with followers' posts
 - ⚡ **Real-time updates** using Socket.io
 - 🗑️ **Delete posts** with confirmation
 
 ### 🎬 Reels
+
 - 🎥 **Short-video feature** (like Instagram Reels)
-- ❤️ **Like and comment** functionality  
+- ❤️ **Like and comment** functionality
 - ⏰ **Automatically sorted** by upload time
 - 📱 **Mobile-optimized** video player
 
 ### 📖 Stories
-- ⏳ **24-hour expiring stories**  
+
+- ⏳ **24-hour expiring stories**
 - 🖼️ **Image or video stories** support
 - 🎠 **Displayed in user carousel** format
 - 👁️ **View count** tracking
 
 ### 💬 Encrypted Chat
+
 - 🔒 **End-to-end encrypted messaging** using AES
 - ⚡ **Real-time chat** powered by Socket.io
 - 💾 **Conversation history** stored in MongoDB
@@ -51,16 +56,18 @@
 - 🛡️ **Private and secure** communication
 
 ### 🔔 Notifications
+
 - 🔴 **Real-time notifications** for:
   - ❤️ Likes
-  - 💬 Comments  
+  - 💬 Comments
   - 👥 Follows
 - 🚀 **Instant delivery** via WebSockets
 - ✅ **Auto-read** after viewed
 
 ### 🛠️ Admin Dashboard
-- 📊 **View all users, posts, and reels**  
-- 🗑️ **Delete or manage** user content  
+
+- 📊 **View all users, posts, and reels**
+- 🗑️ **Delete or manage** user content
 - 👑 **User role management**
 - 📈 **Content moderation**
 
@@ -69,38 +76,42 @@
 ## 🧩 Tech Stack
 
 ### Frontend
-- **React.js** - UI Framework
-- **Axios** - HTTP Client
-- **Socket.io Client** - Real-time communication
-- **TailwindCSS** - Styling framework
-- **Framer Motion** - Animations
-- **React Icons** - Icon library
-- **React Hot Toast** - Notifications
 
-### Backend  
-- **Node.js** - Runtime environment
-- **Express.js** - Web framework
-- **Socket.io** - Real-time engine
-- **Mongoose** - MongoDB ODM
-- **JWT** - Authentication
-- **bcryptjs** - Password hashing
-- **Cloudinary** - File storage
+- **React.js** — UI Framework
+- **Axios** — HTTP Client
+- **Socket.io Client** — Real-time communication
+- **TailwindCSS** — Styling framework
+- **Framer Motion** — Animations
+- **React Icons** — Icon library
+- **React Hot Toast** — Notifications
+
+### Backend
+
+- **Node.js** — Runtime environment
+- **Express.js** — Web framework
+- **Socket.io** — Real-time engine
+- **Mongoose** — MongoDB ODM
+- **JWT** — Authentication
+- **bcryptjs** — Password hashing
+- **Cloudinary** — File storage
 
 ### Database & Storage
-- **MongoDB** - NoSQL database
-- **Cloudinary** - Media storage & CDN
+
+- **MongoDB** — NoSQL database
+- **Cloudinary** — Media storage & CDN
 
 ### Security
-- **JWT** - Stateless authentication
-- **CryptoJS** - Message encryption
-- **bcrypt** - Password hashing
-- **CORS** - Cross-origin resource sharing
+
+- **JWT** — Stateless authentication
+- **CryptoJS** — Message encryption
+- **bcrypt** — Password hashing
+- **CORS** — Cross-origin resource sharing
 
 ---
 
 ## 📁 Project Structure
 
-```
+```bash
 INstanza/
 │
 ├── 📁 backend/
@@ -155,6 +166,7 @@ INstanza/
 ## ⚙️ Environment Configuration
 
 ### **Frontend Environment (`/frontend/.env`)**
+
 ```env
 REACT_APP_BACKEND_URL=http://localhost:5000
 REACT_APP_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
@@ -162,6 +174,7 @@ REACT_APP_CLOUDINARY_UPLOAD_PRESET=your_upload_preset
 ```
 
 ### **Backend Environment (`/backend/.env`)**
+
 ```env
 PORT=5000
 MONGOURI=your_mongodb_connection_string
@@ -178,6 +191,7 @@ NODE_ENV=development
 ## 🧠 How It Works
 
 ### 🔐 Encrypted Messaging System
+
 Messages are **AES-encrypted** before saving to the database:
 
 ```javascript
@@ -192,6 +206,7 @@ const decrypted = bytes.toString(CryptoJS.enc.Utf8);
 This ensures **no plain text messages** are stored — privacy guaranteed 🔒
 
 ### ☁️ Cloudinary Media Upload
+
 All media files are securely uploaded to Cloudinary:
 
 ```javascript
@@ -201,3 +216,68 @@ data.append("file", image);
 data.append("upload_preset", process.env.REACT_APP_CLOUDINARY_UPLOAD_PRESET);
 data.append("cloud_name", process.env.REACT_APP_CLOUDINARY_CLOUD_NAME);
 ```
+
+---
+
+## 🖼️ Screenshots
+
+Here’s a glimpse of **Instanza’s UI** ✨
+
+### 🔐 Authentication Pages
+
+|                                              **Sign In Page**                                              |                                              **Sign Up Page**                                              |
+| :--------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+| ![Signin Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/signin.png) | ![Signup Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/signup.png) |
+
+---
+
+### 🏠 Home Feed
+
+|                                             **Home Feed**                                              |                                               **User Profile**                                               |
+| :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
+| ![Home Feed](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/home.png) | ![Profile Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/profile.png) |
+
+---
+
+### 🎬 Reels & Stories
+
+|                                           **Reels Page**                                            |                                            **Stories View**                                             |
+| :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| ![Reels](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/reels.png) | ![Stories](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/stories.png) |
+
+---
+
+### 💬 Chat & Notifications
+
+|                                            **Chat Window**                                             |                                               **Notifications Panel**                                               |
+| :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| ![Chat Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/chat.png) | ![Notifications](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/notifications.png) |
+
+---
+
+### 👑 Admin Dashboard
+
+|                                                   **Admin Dashboard**                                                   |
+| :---------------------------------------------------------------------------------------------------------------------: |
+| ![Admin Dashboard](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/admin_dashboard.png) |
+
+---
+
+### 🌙 Bonus — Dark Mode (if available 😎)
+
+|                                           **Dark Mode Preview**                                            |
+| :--------------------------------------------------------------------------------------------------------: |
+| ![Dark Mode](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/darkmode.png) |
+
+---
+
+## 👨‍💻 Developer
+
+**Developed by [Your Name](https://github.com/yourusername)**  
+💬 _"Built with ❤️ using MERN Stack"_
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
