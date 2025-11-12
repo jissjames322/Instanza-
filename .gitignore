@@ -10,6 +10,11 @@
 
 # production
 /build
+build/
+
+# .gitignore
+.env
+
 
 # misc
 .DS_Store

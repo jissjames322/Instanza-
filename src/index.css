@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,35 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@keyframes spin-slow {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 1.5s linear infinite;
+}
+
+@font-face {
+  font-family: "Instagram Sans";
+  src: url("./assets/font/Instagram Sans.ttf") format("truetype"),
+       url("./assets/font/Instagram Sans Bold.ttf") format("truetype"),
+       url("./assets/font/Instagram Sans Light.ttf") format("truetype"),
+       url("./assets/font/Instagram Sans Medium.ttf") format("truetype"),
+       url("./assets/font/Instagram Sans Headline.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Instagram Sans Headline";
+  src: url("./assets/font/Instagram Sans Headline.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
