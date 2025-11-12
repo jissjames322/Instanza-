@@ -227,7 +227,7 @@ Here’s a glimpse of **Instanza’s UI** ✨
 
 |                                              **Sign In Page**                                              |                                              **Sign Up Page**                                              |
 | :--------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
-| ![Signin Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/signin.png) | ![Signup Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/signup.png) |
+| ![Signin Page](/images/sigin.png) | ![Signup Page](/images/signup.png) |
 
 ---
 
@@ -235,23 +235,23 @@ Here’s a glimpse of **Instanza’s UI** ✨
 
 |                                             **Home Feed**                                              |                                               **User Profile**                                               |
 | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------: |
-| ![Home Feed](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/home.png) | ![Profile Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/profile.png) |
+| ![Home Feed](/images/feed.png) | ![Profile Page](/images/user_profile.png) |
 
 ---
 
-### 🎬 Reels & Stories
+### 🎬 Reels 
 
-|                                           **Reels Page**                                            |                                            **Stories View**                                             |
-| :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
-| ![Reels](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/reels.png) | ![Stories](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/stories.png) |
+|                                           **Reels Page**                                            
+| :-------------------------------------------------------------------------------------------------: | 
+| ![Reels](/images/reels.png) |
 
 ---
 
-### 💬 Chat & Notifications
+### 💬 Mobile View 
 
-|                                            **Chat Window**                                             |                                               **Notifications Panel**                                               |
-| :----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
-| ![Chat Page](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/chat.png) | ![Notifications](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/notifications.png) |
+|                                            **Mobile View**                                          
+| :----------------------------------------------------------------------------------------------------: | 
+| ![Mobile View](/images/mobile_view.png) | 
 
 ---
 
@@ -259,21 +259,15 @@ Here’s a glimpse of **Instanza’s UI** ✨
 
 |                                                   **Admin Dashboard**                                                   |
 | :---------------------------------------------------------------------------------------------------------------------: |
-| ![Admin Dashboard](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/admin_dashboard.png) |
+| ![Admin Dashboard](/images/admin_dashboard.png) |
 
 ---
 
-### 🌙 Bonus — Dark Mode (if available 😎)
 
-|                                           **Dark Mode Preview**                                            |
-| :--------------------------------------------------------------------------------------------------------: |
-| ![Dark Mode](https://raw.githubusercontent.com/yourusername/instanza/main/assets/screenshots/darkmode.png) |
-
----
 
 ## 👨‍💻 Developer
 
-**Developed by [Your Name](https://github.com/yourusername)**  
+**Developed by [Jiss James](https://github.com/jissjames322)**  
 💬 _"Built with ❤️ using MERN Stack"_
 
 ---
