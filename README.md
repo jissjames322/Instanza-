@@ -267,7 +267,7 @@ Here’s a glimpse of **Instanza’s UI** ✨
 
 ## 👨‍💻 Developer
 
-**Developed by [Jiss James](https://github.com/jissjames322)**  
+**Developed by [Jiss James](https://github.com/jissjames322) & [Jiby P Mathew](https://github.com/jibymath)**  
 💬 _"Built with ❤️ using MERN Stack"_
 
 ---
