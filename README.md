@@ -269,7 +269,7 @@ Here’s a glimpse of **Instanza’s UI** ✨
 
 ## 👨‍💻 Developer
 
-**Developed by [Jiss James](https://github.com/jissjames322) & [Jiby P Mathew](https://github.com/jibymath)**  
+**Developed by [Jiss James](https://github.com/jissjames322) & [Jiby P Mathew](https://github.com/Jiby-mathew)**  
 💬 _"Built with ❤️ using MERN Stack"_
 
 ---
